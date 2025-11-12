@@ -1,4 +1,0 @@
-#automation megang archive sm download
-*/2 * * * * ~/cloud_storage/automation.sh
-
-0 */2 * * * ~/cloud_storage/archive.sh
