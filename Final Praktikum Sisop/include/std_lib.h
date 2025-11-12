@@ -17,4 +17,4 @@ void clear(byte* buf, unsigned int size);
  * ...
  */
 
-#endif // __STD_LIB_H__
+#endif 

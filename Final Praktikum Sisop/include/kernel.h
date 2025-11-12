@@ -13,4 +13,4 @@ void clearScreen();
 void readSector(byte* buf, int sector);
 void writeSector(byte* buf, int sector);
 
-#endif // __KERNEL_H__
+#endif /* __KERNEL_H_ */
