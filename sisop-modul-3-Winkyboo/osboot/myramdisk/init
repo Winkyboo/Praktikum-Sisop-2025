@@ -1,0 +1,10 @@
+#!/bin/sh
+hostname Wackyboo
+/bin/mount -t proc none /proc
+/bin/mount -t sysfs none /sys
+while true
+do
+    /bin/getty -L tty1 115200 vt100
+    sleep 1
+done
+exec /bin/sh
