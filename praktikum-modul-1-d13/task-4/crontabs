@@ -1,0 +1,7 @@
+*/5 * * * * /home/willy/sisop/praktikum1/minute5_log.sh
+
+0 * * * * /home/willy/sisop/praktikum1/agg_5min_to_hour.sh
+
+0 * * * * /home/willy/sisop/praktikum1/uptime_monitor.sh
+
+0 0 * * * /home/willy/sisop/praktikum1/cleanup_log.sh 
